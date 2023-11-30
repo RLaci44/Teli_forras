@@ -8,17 +8,37 @@ body {
     background-image: url(téliképek/kepek/hatter.jpg)
 }
 
-.container {
-    max-width: 900px;
-    margin: auto;
+/* .container { */
+    /* max-width: 900px; */
+    /* margin: auto; */
 
-}
+/* } */
 
 .gomb {
     color: white;
     margin-top: 0.4rem;
     
 }
+.polaroid_rotat_right{
+    width: 120px;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    float: left;
+    transform: rotate(7deg);
+}
+   
+.polaroid_rotat_left{
+    width: 120px;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    float: left;
+    transform: rotate(-8deg);
+}
+   
 
 .gombok{
     
@@ -38,7 +58,7 @@ body {
     list-style-type: none;
 }
 
-b {
+br {
     text-align: center;
     border: 32px;
     text-decoration: none;
@@ -118,7 +138,7 @@ footer{
         list-style-type: none;
     }
     
-    b {
+    br {
         text-align: center;
         border: 32px;
         text-decoration: none;
@@ -165,3 +185,10 @@ footer{
     }
     
 }
+
+@media (max-width: 768px) {
+        .pictures{
+          max-width: 25%; 
+        }
+      }
+
